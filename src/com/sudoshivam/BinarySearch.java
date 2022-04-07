@@ -1,10 +1,15 @@
 package com.sudoshivam;
 
+import java.util.Arrays;
+
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 6, 8, 12, 45};
-        int target = 8;
-        int ans = recBinarySearch(arr, target, 0, arr.length-1);
+        System.out.println("Array: " + Arrays.toString(arr));
+        int target = 12;
+        System.out.println("Target: " + target);
+//        int ans = recBinarySearch(arr, target, 0, arr.length-1);
+        int ans = binarySearch(arr, target);
         if (ans == -1) System.out.println(target + " is not found in array!");
         else System.out.println(target + " is found at index: " + ans);
     }

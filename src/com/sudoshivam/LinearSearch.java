@@ -1,11 +1,15 @@
 package com.sudoshivam;
 
+import java.util.Arrays;
+
 public class LinearSearch {
     public static void main(String[] args) {
         int[] arr = {1, 3, 5, 2, 0, 6};
-        int target = 2;
-//        int ans = linearSearch(arr, target);
-        int ans = recLinearSearch(arr, target, 0, arr.length-1);
+        System.out.println("Array: " + Arrays.toString(arr));
+        int target = 3;
+        System.out.println("Target: " + target);
+        int ans = linearSearch(arr, target);
+//        int ans = recLinearSearch(arr, target, 0, arr.length-1);
         if (ans == -1) System.out.println(target + " is not found!");
         else System.out.println(target + " is present at index: " + ans);
     }
