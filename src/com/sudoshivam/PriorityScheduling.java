@@ -60,7 +60,7 @@ public class PriorityScheduling {
         }
 //Displaying the process
         System.out.println("-----------------------------------------------------------------------");
-        System.out.print("\n\nProcess \t\t |Burst Time \t\t |Wait Time \t\t |Turn Time \n");
+        System.out.print("\n\nProcess \t |Burst Time \t |Wait Time \t |Turn Time \n");
         System.out.println("-----------------------------------------------------------------------");
         for(i=0;i<n;i++)
             System.out.print("\n"+p[i]+"\t\t| "+bt[i]+"\t\t| "+w[i]+"\t\t|"+t[i]+"\t\t| "+pp[i]+"\n");

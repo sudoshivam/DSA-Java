@@ -21,7 +21,7 @@ class SRTF {
         System.out.println("\nEnter Burst time:");
         for(i=0;i<n;i++)
         {
-            System.out.print("\nProcess["+(i+1)+"]: ");
+            System.out.print("Process["+(i+1)+"]: ");
             burst_time[i] = s.nextInt();
             process[i]=i+1; //Process Number
         }
@@ -30,7 +30,7 @@ class SRTF {
         System.out.println("\nEnter arrival time:");
         for(i=0;i<n;i++)
         {
-            System.out.print("\nProcess["+(i+1)+"]: ");
+            System.out.print("Process["+(i+1)+"]: ");
             arr_time[i] = s.nextInt();
             process[i]=i+1; //Process Number
         }
